@@ -1,4 +1,16 @@
+@media (max-width: 991px) {
+  .service-section .service-item {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+}
 @media (max-width: 767px) {
+  .about-section .skills .skill-item,
+  .about-section .about-image,
+  .about-section .about-info,
+  .contact-section .w-50,
+  .contact-section .contact-item,
+  .service-section .service-item,
   .home .home-text,
   .home .home-img {
     flex: 0 0 100%;
@@ -27,12 +39,7 @@
   .effect-5 {
     right: 4%;
   }
-  .about-section .skills .skill-item,
-  .about-section .about-image,
-  .about-section .about-info {
-    flex: 0 0 100%;
-    max-width: 100%;
-  }
+
   .let {
     width: 50%;
     margin-left: auto;
