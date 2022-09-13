@@ -44,12 +44,12 @@
   font-weight: 600;
   text-transform: capitalize;
 }
-.style-switcher .colors {
+.style-switcher .color {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
 }
-.style-switcher .colors span {
+.style-switcher .color span {
   display: inline-block;
   height: 30px;
   width: 30px;
